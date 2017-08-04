@@ -1,0 +1,236 @@
+
+/*HTML tags*/
+
+body{
+  position: relative;
+  font-family: 'Arima Madurai', cursive;
+}
+
+
+p{
+  margin-top: 50px;
+  text-indent: 25px;
+}
+
+h3{
+  text-indent: 25px;
+}
+
+
+footer{
+     margin-top: 50px;
+     text-align: center;
+     color: #999;
+     background-color:#222;
+     border-color: #080808;
+}
+
+/*Class tags*/
+
+.black{
+  background: black;
+  color: white;
+}
+
+.blue {
+  background-image: url("../imgs/ocean-final.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.white {
+  background: white;
+  color: black;
+}
+
+.room{
+  margin-top: 25px;
+}
+
+.room img{
+  margin: 0 auto;
+}
+
+
+.facade{
+  margin-top: 90px;
+  margin-left: auto;
+  margin-right: auto;
+	text-align: center;
+  max-width: 75%;
+}
+
+.facade h1 {
+  font-weight: bold;
+}
+
+
+.facade img{
+	margin: 10px auto 25px;
+	max-width: 70%;
+}
+
+.glyphicon-remove{
+  position:absolute;
+  right: 10px;
+  top: 20%;
+  font-size:15px;
+  color:red;
+  border-radius: 50%;
+}
+
+.btn{
+  background:rgba(73, 82, 96, .07);
+}
+
+
+.redJJO {
+  padding-top: 170px;
+  height: 600px;
+  background: linear-gradient(#f28d09, transparent 90%),
+    linear-gradient(0deg,#0919f2 , transparent),
+    #910202
+   url('../imgs/yoga.jpg') no-repeat center;
+  background-size: cover;
+}
+
+.orangeJJO {
+  padding-top: 170px;
+  height: 600px;
+  background: linear-gradient(#0919f2, transparent 90%),
+    linear-gradient(0deg,#6a07c6, transparent),
+    #910202
+   url('../imgs/b&w jerrett.jpg') no-repeat center;
+  background-size: cover;
+
+}
+
+.yellowJJO{
+  padding-top: 170px;
+  height: 600px;
+  background: linear-gradient(#6a07c6, transparent 90%),
+    linear-gradient(0deg, #e35959, transparent),
+    #910202
+   url('../imgs/Ham jerrett.jpg') no-repeat center;
+  background-size: cover;
+}
+
+.greenJJO{
+  padding-top: 170px;
+  height: 600px;
+  background: linear-gradient(#e35959, transparent 90%),
+    linear-gradient(0deg, #2722ad, transparent),
+    #910202
+   url('../imgs/jerrett.jpg') no-repeat center;
+  background-size: cover;
+}
+
+.blueJJO{
+    padding-top: 170px;
+    height: 600px;
+    background: linear-gradient(#2722ad, transparent 90%),
+    linear-gradient(0deg, #550cd3, transparent),
+    #910202
+    url('../imgs/yoga jerrett.jpg') no-repeat center;
+    background-size: cover;
+}
+
+.purpleJJO{
+    padding-top: 170px;
+    height: 600px;
+    background: linear-gradient(#550cd3, transparent 90%),
+    linear-gradient(0deg, #d30caf, transparent),
+    #910202
+    url('../imgs/scout j.jpg') no-repeat center;
+    background-size: cover;
+}
+
+.title{
+  margin-top: 90px;
+}
+
+.photo-overlay {
+  color:white;
+  text-align: center;
+  opacity: 0;
+  transition-property: opacity;
+  transition-duration: .5s;
+}
+
+.photo-overlay:hover {
+  opacity: 1;
+}
+
+.inMemory{
+  margin-top: 90px;
+  margin-bottom: 50px;
+}
+
+.inMemory img{
+  margin: 0 auto;
+}
+
+/*ID Tags*/
+
+#overlay{
+  background:rgba(0,0,0,0.7);
+  width:100%;
+  height:100%;
+  position:fixed;
+  top:0;
+  left:0;
+  display:none;
+  text-align:center;
+  overflow: hidden;
+}
+
+#overlay img {
+ position: absolute;
+ height: auto;
+ top:20%;
+ left: 2%;
+ right: 0;
+}
+
+#overlay p {
+  color:white;
+}
+
+#inspire{
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+#aka{
+  margin-top: 0;
+  display: none;
+}
+
+#nickNames{
+  display: none;
+}
+
+#names{
+  min-height: 210px;
+}
+
+#StoriesImg{
+  margin-top: 100px;
+}
+
+/*Media query*/
+
+@media (min-width: 769px){
+  #overlay img{
+    top:9%;
+    width: 50%;
+    left: 25%;
+  }
+
+  .glyphicon-remove{
+    top:9%;
+    right: 26%;
+  }
+
+}
