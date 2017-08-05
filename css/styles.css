@@ -10,6 +10,11 @@ body{
 p{
   margin-top: 50px;
   text-indent: 25px;
+  font-size: 30px;
+}
+
+li{
+  font-size: 25px;
 }
 
 h3{
@@ -26,6 +31,10 @@ footer{
 }
 
 /*Class tags*/
+
+.navbar-brand{
+  font-size: 25px;
+}
 
 .black{
   background: black;
