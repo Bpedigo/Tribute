@@ -14,7 +14,7 @@ p{
 }
 
 li{
-  font-size: 25px;
+  font-size: 30px;
 }
 
 h3{
@@ -33,7 +33,7 @@ footer{
 /*Class tags*/
 
 .navbar-brand{
-  font-size: 25px;
+  font-size: 30px;
 }
 
 .black{
@@ -80,18 +80,18 @@ footer{
 	max-width: 70%;
 }
 
-.glyphicon-remove{
+/*.glyphicon-remove{
   position:absolute;
   right: 10px;
   top: 20%;
   font-size:15px;
   color:red;
   border-radius: 50%;
-}
+}*/
 
-.btn{
+/*.btn{
   background:rgba(73, 82, 96, .07);
-}
+}*/
 
 
 .redJJO {
@@ -100,7 +100,7 @@ footer{
   background: linear-gradient(#f28d09, transparent 90%),
     linear-gradient(0deg,#0919f2 , transparent),
     #910202
-   url('../imgs/yoga.jpg') no-repeat center;
+   url('../imgs/cool jerrett.jpg') no-repeat center;
   background-size: cover;
 }
 
@@ -197,7 +197,7 @@ footer{
 #overlay img {
  position: absolute;
  height: auto;
- top:20%;
+ top:7%;
  left: 2%;
  right: 0;
 }
@@ -232,14 +232,29 @@ footer{
 
 @media (min-width: 769px){
   #overlay img{
-    top:9%;
-    width: 50%;
-    left: 25%;
+    top:7%;
+    width: 70%;
+    /*width:0 auto;*/
+    /*max-width: 100%;*/
+    left: 16%;
+    max-height: 100%;
   }
 
-  .glyphicon-remove{
+/*  .glyphicon-remove{
     top:9%;
     right: 26%;
+  }*/
+
+  p{
+    font-size: 20px;
+  }
+
+  li{
+    font-size:20px ;
+  }
+
+  .navbar-brand{
+    font-size: 20px;
   }
 
 }

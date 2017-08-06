@@ -5,12 +5,12 @@ const $aka = $('#aka');
 
 let nickN = new NickNames();
 var $overlay = $('<div id="overlay" class ="row"></div>');
-var $exit = $('<buttton class="btn btn-default glyphicon glyphicon-remove"></buttton>')
+// var $exit = $('<buttton class="btn btn-default glyphicon glyphicon-remove"></buttton>')
 var $image = $('<img class= "col-xs-12">');
 
 
 $overlay.append($image);
-$overlay.append($exit);
+// $overlay.append($exit);
 
 $("body").append($overlay);
 
@@ -31,7 +31,7 @@ $(".imageGallery").click(function(e){
 });
 
 
-$exit.click(e => {
+$overlay.click(e => {
 
   $overlay.fadeOut('fast');
 });
