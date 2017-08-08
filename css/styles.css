@@ -10,11 +10,11 @@ body{
 p{
   margin-top: 50px;
   text-indent: 25px;
-  font-size: 30px;
+  font-size: 2em;
 }
 
 li{
-  font-size: 30px;
+  font-size: 2em;
 }
 
 h3{
@@ -23,6 +23,7 @@ h3{
 
 
 footer{
+     font-size: .7em;
      margin-top: 50px;
      text-align: center;
      color: #999;
@@ -33,7 +34,7 @@ footer{
 /*Class tags*/
 
 .navbar-brand{
-  font-size: 30px;
+  font-size: 2em;
 }
 
 .black{
@@ -79,20 +80,6 @@ footer{
 	margin: 10px auto 25px;
 	max-width: 70%;
 }
-
-/*.glyphicon-remove{
-  position:absolute;
-  right: 10px;
-  top: 20%;
-  font-size:15px;
-  color:red;
-  border-radius: 50%;
-}*/
-
-/*.btn{
-  background:rgba(73, 82, 96, .07);
-}*/
-
 
 .redJJO {
   padding-top: 170px;
@@ -234,16 +221,9 @@ footer{
   #overlay img{
     top:7%;
     width: 70%;
-    /*width:0 auto;*/
-    /*max-width: 100%;*/
     left: 16%;
     max-height: 100%;
   }
-
-/*  .glyphicon-remove{
-    top:9%;
-    right: 26%;
-  }*/
 
   p{
     font-size: 20px;
