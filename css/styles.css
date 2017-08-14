@@ -31,6 +31,14 @@ footer{
      border-color: #080808;
 }
 
+iframe{
+  display: block;
+  width:600px; 
+  height:400px;
+  margin: 0 auto;
+  max-width: 80%;
+}
+
 /*Class tags*/
 
 
@@ -149,9 +157,8 @@ footer{
 
 
 .center{
-  margin-top: 90px;
   text-align: center;
-
+  margin-bottom: 60px;
 }
 
 .photo-overly{
